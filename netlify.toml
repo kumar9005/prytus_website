@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  # functions = "netlify/functions" # Uncomment if you use Netlify Functions
+
+[dev]
+  command = "npm run dev"
+  port = 8080
+  targetPort = 8080
