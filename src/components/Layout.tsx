@@ -30,7 +30,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <div className="h-8 w-8 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">P</span>
               </div>
-              <span className="text-xl font-bold text-foreground">Portal</span>
+              <span className="text-xl font-bold text-foreground">Prytus</span>
             </Link>
 
             {/* Desktop Navigation */}

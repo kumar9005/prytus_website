@@ -30,11 +30,10 @@ const Home = () => {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-primary-foreground sm:text-6xl">
-              Welcome to Our Portal!
+              Welcome to Prytus
             </h1>
             <p className="mt-6 text-lg leading-8 text-primary-foreground/90 max-w-2xl mx-auto">
-              We are a forward-thinking organization committed to delivering the best user experience 
-              through innovative solutions and reliable service.
+              Prytus is your trusted partner for software consultation and digital transformation. We deliver innovative, scalable, and reliable solutions tailored to your business needs.
             </p>
             <div className="mt-10 flex items-center justify-center gap-6">
               <Button asChild size="lg" variant="secondary" className="shadow-glow">
@@ -43,8 +42,10 @@ const Home = () => {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <Link to="/contact">Get Started</Link>
+              <Button asChild size="lg" variant="secondary" className="shadow-glow">
+                <Link to="/contact">Get Started
+                <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
               </Button>
             </div>
           </div>
@@ -56,10 +57,10 @@ const Home = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Why Choose Us?
+              Why Choose Prytus?
             </h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Our team of professionals is passionate, driven, and always ready to help.
+              As a software consultation business, our team of experts is passionate, driven, and always ready to help you achieve your technology goals.
             </p>
           </div>
 
@@ -118,10 +119,10 @@ const Home = () => {
           <Card className="bg-gradient-secondary border-border">
             <CardContent className="p-8 text-center">
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                Ready to Start Your Next Project?
+                Ready to Transform Your Business with Prytus?
               </h2>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Let's discuss how we can help bring your ideas to life with our innovative solutions.
+                Let's discuss how Prytus can help bring your ideas to life with innovative, future-ready software solutions.
               </p>
               <Button asChild size="lg" className="shadow-glow">
                 <Link to="/request">

@@ -104,11 +104,10 @@ const Team = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-6">
-            Meet Our Team
+            Meet the Prytus Team
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our team of professionals is passionate, driven, and always ready to help. 
-            We bring together diverse expertise to deliver exceptional results.
+            The Prytus team is passionate about software consultation and digital innovation. We bring together diverse expertise to deliver exceptional results for our clients.
           </p>
         </div>
 
@@ -202,9 +201,9 @@ const Team = () => {
         {/* Culture Section */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Our Culture</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">Our Culture at Prytus</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We foster an environment of collaboration, continuous learning, and innovation.
+              At Prytus, we foster an environment of collaboration, continuous learning, and innovation to deliver the best software consultation services.
             </p>
           </div>
 
@@ -252,10 +251,10 @@ const Team = () => {
           <Card className="bg-gradient-hero border-border">
             <CardContent className="p-8 text-center">
               <h2 className="text-2xl font-bold text-primary-foreground mb-4">
-                Want to Join Our Team?
+                Want to Join Prytus?
               </h2>
               <p className="text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
-                We're always looking for talented individuals who share our passion for excellence and innovation.
+                We're always looking for talented individuals who share our passion for software consultation, excellence, and innovation.
               </p>
               <Button variant="secondary" size="lg" className="shadow-glow">
                 View Open Positions

@@ -88,11 +88,10 @@ const Services = () => {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-6">
-            Our Services
+            Prytus Services
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We offer a comprehensive range of digital services to help your business thrive in the modern world.
-            From web development to digital marketing, we've got you covered.
+            Prytus offers expert software consultation and a comprehensive range of digital services to help your business thrive. From web and mobile development to cloud and security, we deliver solutions that drive success.
           </p>
         </div>
 
@@ -141,9 +140,9 @@ const Services = () => {
         {/* Process Section */}
         <section className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-foreground mb-4">Our Process</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-4">Our Consultation Process</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              We follow a proven methodology to ensure successful project delivery and client satisfaction.
+              At Prytus, we follow a proven methodology to ensure successful project delivery and client satisfaction, from discovery to deployment.
             </p>
           </div>
 
@@ -174,10 +173,10 @@ const Services = () => {
           <Card className="bg-gradient-secondary border-border">
             <CardContent className="p-8 text-center">
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                Ready to Get Started?
+                Ready to Accelerate Your Business with Prytus?
               </h2>
               <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Let's discuss your project requirements and see how we can help bring your vision to life.
+                Let's discuss your project requirements and see how Prytus can help bring your vision to life with expert software consultation and solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg">
