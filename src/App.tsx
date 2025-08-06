@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Team from "./pages/Team";
 import Request from "./pages/Request";
-import ReadMore from "./pages/ReadMore";
+// import ReadMore from "./pages/ReadMore";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
@@ -28,7 +28,7 @@ const App = () => (
             <Route path="/services" element={<Services />} />
             <Route path="/team" element={<Team />} />
             <Route path="/request" element={<Request />} />
-            <Route path="/readmore" element={<ReadMore />} />
+            {/* <Route path="/readmore" element={<ReadMore />} /> */}
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

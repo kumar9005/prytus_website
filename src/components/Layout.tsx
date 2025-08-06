@@ -13,7 +13,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     { name: 'Services', href: '/services' },
     { name: 'Team', href: '/team' },
     { name: 'Request', href: '/request' },
-    { name: 'Read More', href: '/readmore' },
+    // { name: 'Read More', href: '/readmore' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -106,7 +106,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                 <div className="h-8 w-8 bg-gradient-primary rounded-lg flex items-center justify-center">
                   <span className="text-primary-foreground font-bold text-lg">P</span>
                 </div>
-                <span className="text-xl font-bold text-foreground">Portal</span>
+                {/* <span className="text-xl font-bold text-foreground">Portal</span> */}
+               <span className="text-xl font-bold text-foreground">Prytus</span>
               </div>
               <p className="text-muted-foreground">
                 A forward-thinking organization committed to delivering the best user experience through innovative solutions.
