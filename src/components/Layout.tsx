@@ -110,7 +110,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                <span className="text-xl font-bold text-foreground">Prytus</span>
               </div>
               <p className="text-muted-foreground">
-                A forward-thinking organization committed to delivering the best user experience through innovative solutions.
+                A forward-thinking organization committed to delivering the best user experience through innovative solutions1111.
               </p>
             </div>
             
